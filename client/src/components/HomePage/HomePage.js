@@ -34,7 +34,7 @@ const HomePage = (props) => {
             <Header />
             <Content style={{ padding: '0px 0px', height: '100%'}}>
                 <Row style= {{backgroundColor: 'white', padding: '30px 0px'}}>
-                    <Col align="center" span={24}>
+                    <Col align="center" span={24} style={{padding:'0px 15px'}}>
                         <h2 style={{fontSize: '50px', fontWeight:'bolder', color:'black'}}>About Us</h2>
                         <p style={{fontSize: '15px', textAlign:'justify', color:'black'}}>
                         I find inspiration in ad copy that takes little space to reflect a strong message. Sure, you’ll need to write much more than a couple of sentences for your content marketing, but simplicity has merit. How well you write always sets the stage for what’s to come.
@@ -47,15 +47,15 @@ const HomePage = (props) => {
                     </Col>
                 </Row>
                 <Row style={{backgroundColor:'#001529', padding: '20px 0px'}}>
-                    <Col align="center" span={12} style={{padding:'0px 10px'}}>
-                        <h2 style={{color:'white', fontSize:'40px', fontWeight:'bolder'}}>Motivation</h2>
+                    <Col align="center" span={12} style={{padding:'0px 15px'}}>
+                        <h2 style={{color:'white', fontSize:'35px', fontWeight:'bolder'}}>Motivation</h2>
                         <p style={{color: 'white', fontSize:'15px', textAlign:'justify'}}>
                         In 2019, Spotify gained notice with its Spotify Everywhere meme-themed campaign. For example, on one billboard, the left side read: “Me: It’s Okay; the breakup was mutual.” On the right side, it read: “Also Me: Sad Indie” (complete with the app’s music search imagery). The simple, creatively delivered message went deep into a full range of emotions familiar to countless people.
                         In 2019, Spotify gained notice with its Spotify Everywhere meme-themed campaign. For example, on one billboard, the left side read: “Me: It’s Okay; the breakup was mutual.” On the right side, it read: “Also Me: Sad Indie” (complete with the app’s music search imagery). The simple, creatively delivered message went deep into a full range of emotions familiar to countless people.
                         </p>
                     </Col>
-                    <Col align="center" span={12} style={{padding:'0px 10px'}}>
-                        <h2 style={{color:'white', fontSize:'40px', fontWeight:'bolder'}}>Objective</h2>
+                    <Col align="center" span={12} style={{padding:'0px 15px'}}>
+                        <h2 style={{color:'white', fontSize:'35px', fontWeight:'bolder'}}>Objective</h2>
                         <p style={{color:'white', fontSize:'15px', textAlign:'justify'}}>
                         The COVID-19 pandemic led to numerous ad campaigns that underscore the value of brevity. Nike handled it this way: “If you ever dreamed of playing for millions around the world, now is your chance. Play inside, play for the world.”
                         The COVID-19 pandemic led to numerous ad campaigns that underscore the value of brevity. Nike handled it this way: “If you ever dreamed of playing for millions around the world, now is your chance. Play inside, play for the world.”                        
