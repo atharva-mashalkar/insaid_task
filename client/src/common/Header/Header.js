@@ -41,7 +41,7 @@ function HeaderComponent(props) {
                 >
                     <Button
                         size="large"
-                        style={{ borderRadius: '10px' }}
+                        style={{ borderRadius: '10px' ,fontSize:'15px', fontWeight:'bold'}}
                         onClick={showSignupDrawer}
                     >
                         Signup
@@ -58,7 +58,7 @@ function HeaderComponent(props) {
                 >
                     <Button
                         size="large"
-                        style={{ borderRadius: '10px' }}
+                        style={{ borderRadius: '10px' ,fontSize:'15px', fontWeight:'bold'}}
                         onClick={showLoginDrawer}
                     >
                         Login
